@@ -1,5 +1,5 @@
 git pull
-if [ $# -ne 2]; then
+if [ $# -ne 2 ]; then
   echo "Input missing"
   echo "Usage: run.sh <component> <env>"
   exit 1
